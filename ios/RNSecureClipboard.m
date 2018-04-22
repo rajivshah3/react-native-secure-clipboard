@@ -1,10 +1,9 @@
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import <React/RCTBridgeModule.h>
-#import <React/RCTEventEmitter.h>
 
 @interface RCT_EXTERN_MODULE(RNSecureClipboard, NSObject)
 
-RCT_EXTERN_METHOD(setString:(NSString *)content);
+RCT_EXTERN_METHOD(setString: (NSString *)content)
 
 @end
 
