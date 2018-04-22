@@ -9,15 +9,21 @@
 
 `$ react-native link react-native-secure-clipboard`
 
-### Manual installation
+### iOS
 
+#### CocoaPods
+1. Add the following line to your `Podfile`:
+```
+pod 'RNSecureClipboard'
+```
+2. Run `pod install`
 
-#### iOS
+#### Manual Installation
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-secure-clipboard` and add `RNSecureClipboard.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNSecureClipboard.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
+4. Run your project (`Cmd+R`)
 
 
 ## Usage
@@ -27,4 +33,3 @@ import RNSecureClipboard from 'react-native-secure-clipboard';
 // TODO: What to do with the module?
 RNSecureClipboard;
 ```
-  
