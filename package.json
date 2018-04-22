@@ -1,6 +1,6 @@
 {
   "name": "react-native-secure-clipboard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Copy sensitive data to the clipboard without making it available to other devices",
   "author": "Rajiv Shah <rajivshah1@icloud.com>",
   "license": "MIT",
