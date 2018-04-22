@@ -22,7 +22,7 @@ or
 #### CocoaPods
 1. Add the following line to your `Podfile`:
 ```
-pod 'RNSecureClipboard'
+pod 'RNSecureClipboard', :path => '../node_modules/react-native-secure-clipboard'
 ```
 2. Run `pod install`
 
