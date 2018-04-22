@@ -1,7 +1,7 @@
 {
   "name": "react-native-secure-clipboard",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Copy sensitive data to the clipboard without making it available to other devices",
   "author": "Rajiv Shah <rajivshah1@icloud.com>",
   "license": "MIT",
   "homepage": "https://github.com/rajivshah3/react-native-secure-clipboard",
@@ -16,15 +16,12 @@
   "lint-staged": {
     "*.{js,json}": ["prettier --write", "git add"]
   },
-  "keywords": ["react-native", "safetynet"],
+  "keywords": ["react-native", "clipboard", "handoff"],
   "peerDependencies": {
     "react-native": "^0.48.0"
   },
   "devDependencies": {
     "babel-eslint": "8.2.3",
-    "esdoc": "1.0.4",
-    "esdoc-ecmascript-proposal-plugin": "1.0.0",
-    "esdoc-standard-plugin": "1.0.0",
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-config-prettier": "2.9.0",
