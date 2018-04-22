@@ -1,13 +1,10 @@
+#import <UIKit/UIKit.h>
+#import <React/RCTBridgeModule.h>
+#import <React/RCTEventEmitter.h>
 
-#import "RNSecureClipboard.h"
+@interface RCT_EXTERN_MODULE(RNSecureClipboard, NSObject)
 
-@implementation RNSecureClipboard
-
-- (dispatch_queue_t)methodQueue
-{
-    return dispatch_get_main_queue();
-}
-RCT_EXPORT_MODULE()
+RCT_EXTERN_METHOD(setString:(NSString *)content);
 
 @end
-  
+
