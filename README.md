@@ -1,9 +1,17 @@
 
 # react-native-secure-clipboard
 
+## About
+
+In iOS 10 and macOS Sierra, Apple introduced [Universal Clipboard](https://support.apple.com/kb/PH25168) as part of their Continuity feature set (also known as Handoff). While Universal Clipboard is normally a useful feature, sometimes this can pose a risk to sensitive data. Any sensitive data that is copied on an iOS device is now available on the Mac clipboard as well, allowing the data to be read by various apps and websites on the Mac. This module allows your React Native app to copy data to the iOS clipboard without making it available to the user's Mac by flagging it with the [localOnly option](https://developer.apple.com/documentation/uikit/uipasteboardoption/1829412-localonly).
+
 ## Getting started
 
 `$ npm install react-native-secure-clipboard --save`
+
+or
+
+`$ yarn add react-native-secure-clipboard`
 
 ### Mostly automatic installation
 
@@ -30,6 +38,7 @@ pod 'RNSecureClipboard'
 ```javascript
 import RNSecureClipboard from 'react-native-secure-clipboard';
 
-// TODO: What to do with the module?
-RNSecureClipboard;
+const str = "Copy this string to the clipboard";
+RNSecureClipboard.setString(str);
+
 ```
