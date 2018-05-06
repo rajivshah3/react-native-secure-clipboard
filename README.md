@@ -1,6 +1,8 @@
 
 # react-native-secure-clipboard
 
+[![GitHub version](https://badge.fury.io/gh/rajivshah3%2Freact-native-secure-clipboard.svg)](https://badge.fury.io/gh/rajivshah3%2Freact-native-secure-clipboard)
+[![Maintainability](https://api.codeclimate.com/v1/badges/7007ccd5751c6408c3b9/maintainability)](https://codeclimate.com/github/rajivshah3/react-native-secure-clipboard/maintainability)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7440485a6dc6427d99185686c615fcb9)](https://app.codacy.com/app/rajivshah3/react-native-secure-clipboard?utm_source=github.com&utm_medium=referral&utm_content=rajivshah3/react-native-secure-clipboard&utm_campaign=badger)
 
 ## About
